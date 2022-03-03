@@ -1,0 +1,56 @@
+.top-sales , .new-sales{
+    position: relative;
+    top:150px;
+    display: flex;
+    flex-direction: column;
+    .top-sales-slider{
+        position: relative;
+        top:60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .top-sales-button{
+            width: 50px;
+            height: 50px;
+            background: rgba(35, 31, 32, 0.3);
+            border-radius: 50%;
+            color:white;
+        }
+        .sales-items{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: flex-start;
+           margin: 15px;
+            .sales-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 20vw;
+                // height: 15vh;
+                background: #F8F9FA;
+                border-radius: 5px;
+                img{
+                    height: 150px;
+                }
+            }
+            span{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+            }
+            button{
+                background: #CB0F41;
+                border-radius: 30px;
+                width: 173px;
+                height: 48px;
+                color:white;
+            }
+            button:hover{
+                color:white;
+            }
+        }
+    }
+}

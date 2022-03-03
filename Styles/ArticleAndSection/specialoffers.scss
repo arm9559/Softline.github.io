@@ -1,0 +1,42 @@
+//Third Section
+.special-offers{
+    position: relative;
+    top:350px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    .special-offers-items{
+        grid-gap: 15px;
+        div{
+            width: 700px;
+            height: 400px;
+            border-radius: 20px;
+            cursor: pointer;
+            div{
+                width: 845px;
+                height: 285px;
+            }
+        }
+        .offer-first{
+            background: #F9F9F9;
+        }
+        .offer-second{
+            background: #F0F7FD;
+        }
+    }
+    ul{
+        display: flex;
+        grid-gap: 5px;
+        align-items: center;
+        justify-content: center;
+        .li-red{
+            background-color: red;
+        }
+        li{
+            background-color:#C4C4C4;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+        }
+    }
+}

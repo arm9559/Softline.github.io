@@ -1,0 +1,30 @@
+@media only screen and (max-width:732px){
+    nav{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        ul{
+            display: none;
+            flex-direction: column;
+            grid-gap: 15px;
+        }
+        #toggle_nav{
+            margin-left: 25px;
+            display:block;
+        }
+    }    
+}
+@media only screen and (min-width:732px){
+    nav{
+        height: auto;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            grid-gap: 15px;
+        }
+    }    
+}
+

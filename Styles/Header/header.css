@@ -1,0 +1,195 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+header .has-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+header .has-search .form-control {
+  padding-left: 30px;
+}
+header .has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 30px;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+header .language-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  width: 152px;
+  height: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .language-bar select {
+  border: none;
+  cursor: pointer;
+}
+header .language-bar img {
+  width: 21px;
+  height: 15px;
+}
+header .icons-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 15px;
+}
+header .icons-bar span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 15px;
+}
+header .icons-bar span a {
+  text-decoration: none;
+  color: black;
+  font-size: 1vw;
+}
+header .icons-bar span a i {
+  cursor: pointer;
+  color: #CB0F41;
+  font-size: 1vw;
+}
+header .sign-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 15px;
+}
+header .sign-container button {
+  grid-gap: 15px;
+  width: 161px;
+  height: 47px;
+  background: #CB0F41;
+  border-radius: 30px;
+  color: white;
+}
+header .sign-container button:hover {
+  color: white;
+}
+header .sign-container img {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+/* Sidenav */
+.sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fefefe;
+  color: white;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+.sidenav input {
+  width: 45vw;
+}
+.sidenav .icons-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sidenav .icons-bar .left {
+  margin-left: 25px;
+}
+.sidenav .sign-container {
+  margin-left: 25px;
+}
+.sidenav .sign-container button {
+  height: 40px;
+  width: 180px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.toggleSidenav {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}

@@ -1,0 +1,62 @@
+.about-categories{
+    position: relative;
+    top:60px;
+    display: flex;
+    flex-direction: column;
+    .block-first , .block-second{
+        display: flex;
+        grid-gap: 15px;
+        .item{
+        display: flex;
+        align-items: flex-end;
+        height: 30vh;
+        width: 570px;
+        border-radius: 20px;
+        margin:15px;
+        color:white;
+        cursor: pointer;
+        span{
+            position: relative;
+            left:30px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1vw;
+            }
+        }
+        .item-first{
+            background:url("../../Images/ArticleWithSections/Categories/operatingsystems.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+
+        .item-second{
+            background:url("../../Images/ArticleWithSections/Categories/officesoftware.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+
+        .item-third{
+            background:url("../../Images/ArticleWithSections/Categories/anitvirusandsecurity.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+
+        .item-fourth{
+            background:url("../../Images/ArticleWithSections/Categories/workwithtext.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+
+        .item-fiveth{
+            background:url("../../Images/ArticleWithSections/Categories/appsforsmartphones.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+
+        .item-sixth{
+            background:url("../../Images/ArticleWithSections/Categories/graphicanddesigns.png");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

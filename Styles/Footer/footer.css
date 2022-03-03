@@ -1,0 +1,117 @@
+footer {
+  position: relative;
+  top: 950px;
+  height: 327px;
+  background: #F8F9FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+footer .footer-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer-child div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 32px;
+}
+footer .footer-child div b {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+footer .footer-child div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  grid-gap: 25px;
+}
+footer .footer-child div ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #231F20;
+}
+footer .media-bar {
+  width: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  grid-gap: 75px;
+}
+footer .media-bar .social-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 20px;
+}
+footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+footer .contact span {
+  width: 216px;
+}
+footer .contact span a {
+  text-decoration: none;
+  color: #231F20;
+}
+footer .contact span a:active {
+  color: #231F20;
+}
+footer .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .subscribe form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .subscribe form div input {
+  width: 208px;
+  height: 54px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+footer .subscribe form div button {
+  width: 64px;
+  height: 54px;
+  background: #CB0F41;
+  border-radius: 0px 10px 10px 0px;
+}

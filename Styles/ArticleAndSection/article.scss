@@ -1,0 +1,29 @@
+article{
+    position: relative;
+    top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    div{
+        display: flex;
+        // flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+        }
+        a:nth-child(1){
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 600;
+            color:black;
+        }
+        a:nth-child(2){
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            color: #CB0F41;
+        }
+    }
+}

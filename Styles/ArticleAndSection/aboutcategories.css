@@ -1,0 +1,68 @@
+.about-categories {
+  position: relative;
+  top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about-categories .block-first, .about-categories .block-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 15px;
+}
+.about-categories .block-first .item, .about-categories .block-second .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 30vh;
+  width: 570px;
+  border-radius: 20px;
+  margin: 15px;
+  color: white;
+  cursor: pointer;
+}
+.about-categories .block-first .item span, .about-categories .block-second .item span {
+  position: relative;
+  left: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+}
+.about-categories .block-first .item-first, .about-categories .block-second .item-first {
+  background: url("../../Images/ArticleWithSections/Categories/operatingsystems.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-categories .block-first .item-second, .about-categories .block-second .item-second {
+  background: url("../../Images/ArticleWithSections/Categories/officesoftware.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-categories .block-first .item-third, .about-categories .block-second .item-third {
+  background: url("../../Images/ArticleWithSections/Categories/anitvirusandsecurity.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-categories .block-first .item-fourth, .about-categories .block-second .item-fourth {
+  background: url("../../Images/ArticleWithSections/Categories/workwithtext.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-categories .block-first .item-fiveth, .about-categories .block-second .item-fiveth {
+  background: url("../../Images/ArticleWithSections/Categories/appsforsmartphones.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-categories .block-first .item-sixth, .about-categories .block-second .item-sixth {
+  background: url("../../Images/ArticleWithSections/Categories/graphicanddesigns.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

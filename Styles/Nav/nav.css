@@ -1,0 +1,33 @@
+nav {
+  background: #F8F9FA;
+  height: 67px;
+}
+nav #toggle_nav {
+  margin-left: 25px;
+  display: none;
+}
+nav ul {
+  position: relative;
+  top: calc(100% - 50px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: black;
+}
+nav .toggle_button_transform {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}

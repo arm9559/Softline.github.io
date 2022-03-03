@@ -1,0 +1,83 @@
+.top-sales, .new-sales {
+  position: relative;
+  top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.top-sales .top-sales-slider, .new-sales .top-sales-slider {
+  position: relative;
+  top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.top-sales .top-sales-slider .top-sales-button, .new-sales .top-sales-slider .top-sales-button {
+  width: 50px;
+  height: 50px;
+  background: rgba(35, 31, 32, 0.3);
+  border-radius: 50%;
+  color: white;
+}
+.top-sales .top-sales-slider .sales-items, .new-sales .top-sales-slider .sales-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 15px;
+}
+.top-sales .top-sales-slider .sales-items .sales-item, .new-sales .top-sales-slider .sales-items .sales-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20vw;
+  background: #F8F9FA;
+  border-radius: 5px;
+}
+.top-sales .top-sales-slider .sales-items .sales-item img, .new-sales .top-sales-slider .sales-items .sales-item img {
+  height: 150px;
+}
+.top-sales .top-sales-slider .sales-items span, .new-sales .top-sales-slider .sales-items span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.top-sales .top-sales-slider .sales-items button, .new-sales .top-sales-slider .sales-items button {
+  background: #CB0F41;
+  border-radius: 30px;
+  width: 173px;
+  height: 48px;
+  color: white;
+}
+.top-sales .top-sales-slider .sales-items button:hover, .new-sales .top-sales-slider .sales-items button:hover {
+  color: white;
+}

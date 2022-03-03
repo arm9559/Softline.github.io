@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--For Apple-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Softline</title>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Web Page Icon-->
+    <link rel="shortcut icon" href="Images/Footer/logo.png"/>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Styles-->
+    <link rel="stylesheet" href="Styles/global.css"/>
+        <!--Header Style & Media-->
+            <link rel="stylesheet" href="Styles/Header/header.css"/>
+            <link rel="stylesheet" href="Styles/Header/headerMedia.css"/>
+        <!--Nav Style & Media-->
+            <link rel="stylesheet" href="Styles/Nav/nav.css"/>
+            <link rel="stylesheet" href="Styles/Nav/navMedia.css"/>
+        <!--Main Style & Media-->
+            <link rel="stylesheet" href="Styles/Main/main.css"/>
+            <link rel="stylesheet" href="Styles/Main/mainMedia.css"/>
+        <!--Article & Section Styles With Media-->
+            <link rel="stylesheet" href="Styles/ArticleAndSection/article.css"/>
+            <link rel="stylesheet" href="Styles/ArticleAndSection/sections.css"/>
+            <link rel="stylesheet" href="Styles/ArticleAndSection/aboutcategories.css"/>
+            <link rel="stylesheet" href="Styles/ArticleAndSection/newandtopsales.css"/>
+            <link rel="stylesheet" href="Styles/ArticleAndSection/specialoffers.css"/>
+            <link rel="stylesheet" href="Styles/ArticleAndSection/newsales.css"/>
+            <link rel="stylesheet" href="Styles/ArticleAndSection//sectionMedia.css"/>
+        <!--Footer-->
+            <link rel="stylesheet" href="Styles/Footer/footer.css"/>
+            <link rel="stylesheet" href="Styles/Footer/footerMedia.css"/>
+    <!--W3 Icons Font Awesome 4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header class="container-fluid">
+        <div class="logo-container">
+            <img src="./Images/Header/Logo.png" title="Softline" alt="Logo Image" class="img-fluid" height="81px" width="141px"/>
+        </div>
+
+        <div class="form-group has-search none">
+            <span class="fa fa-search form-control-feedback none"></span>
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+
+        <div class="language-bar none">
+            <img src="./Images/Header/en.png" title="Language Bar" alt="Flag" class="img-fluid"/>
+            <select>
+                <option>En</option>
+                <option>Ru</option>
+                <option>Am</option>
+            </select>
+        </div>
+
+        <div class="icons-bar none">
+            <span>
+                <a href="mailto:info.am@softline.com">
+                    <i class="fa">&#xf2b6;</i>
+                    info.am@softline.com
+                </a>
+            </span>
+            <span>
+                <a href="tel:+374 (11) 555-005">
+                <i class="fa">&#xf095;</i>
+                    +374 (11) 555-005
+                </a>
+            </span>
+        </div>
+
+        <div class="sign-container none">
+            <span>
+                <img src="./Images/Header/shopping-cart.png" title="shopping cart " alt="Shopping Cart Icon" class="img-fluid"/>
+            </span>
+            <button class="btn">
+                Sign in
+            </button>
+        </div>
+
+        <!--Sidenav-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="logo-container">
+                <img src="./Images/Header/Logo.png" title="Softline" alt="Logo Image" class="img-fluid" height="81px" width="141px"/>
+            </div>
+
+            <div class="form-group has-search">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+    
+            <div class="language-bar">
+                <img src="./Images/Header/en.png" title="Language Bar" alt="Flag" class="img-fluid"/>
+                <select>
+                    <option>En</option>
+                    <option>Ru</option>
+                    <option>Am</option>
+                </select>
+            </div>
+    
+            <div class="icons-bar">
+                <span>
+                    <a href="mailto:info.am@softline.com">
+                        <i class="fa">&#xf2b6;</i>
+                        info.am@softline.com
+                    </a>
+                </span>
+                <span>
+                    <a href="tel:+374 (11) 555-005">
+                    <i class="fa">&#xf095;</i>
+                        +374 (11) 555-005
+                    </a>
+                </span>
+                <span>
+                    <img src="./Images/Header/shopping-cart.png" title="shopping cart " alt="Shopping Cart Icon" class="img-fluid left" height="25px" width="25px"/>
+                </span>
+            </div>
+    
+            <div class="sign-container">
+                <button class="btn">
+                    Sign in
+                </button>
+            </div>
+        </div>
+
+        <span class="toggleSidenav" onclick="openNav()">&#9776;</span>
+
+    </header>
+    <!--Navbar-->
+    <nav class="container-fluid text-center">
+        <button class="btn" id="toggle_nav" onclick="transform()">
+            <i style="font-size:24px" class="fa">&#xf077;</i>
+        </button>
+        <ul class="toggle_nav_ul">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            
+            <li>
+                <a href="#">Categories</a>
+            </li>
+
+            <li>
+                <a href="#">Action</a>
+            </li>
+
+            <li>
+                <a href="#">About Us</a>
+            </li>
+
+            <li>
+                <a href="#">Price Inquiry</a>
+            </li>
+
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Main-->
+    <main class="container-fluid col-sm-12 col-md-12 col-xs-12 col-lg-12">
+        <div class="slider-first">
+            <div class="slider-background">
+                <div class="slider-text">
+                    <span>
+                        <h2>
+                            Lorem Ipsum is simply dummy text of<br/>the printing <b style="color:red;">and typesetting industry.</b>
+                        </h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting<br/>industry. Lorem Ipsum has been the industry's standard dummy text<br/>ever since the 1500s
+                        </p>
+                        <button class="btn">More</button>
+                    </span>
+                </div>
+                <div class="slider-image">
+                    <img src="Images/Main/sliderFirstImage.png" alt="Slider Image" title="Slider Image" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="slider-ul">
+                <ul>
+                    <li class="li-red"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider-second">
+            <div class="about-slider-second">
+                <button class="btn" onclick="prev()">
+                    <i class="material-icons">&#xe408;</i>
+                </button>
+                <div id="slider-second-images">
+                    
+                </div>
+            <button class="btn" onclick="next()">
+                <i class="material-icons">&#xe409;</i>
+            </button>
+            </div>
+            <div class="btn-group">
+                <button class="btn" onclick="prev()">
+                    <i class="material-icons">&#xe408;</i>
+                </button>
+                <button class="btn" onclick="next()">
+                    <i class="material-icons">&#xe409;</i>
+                </button>
+            </div>
+        </div>
+    </main>
+    <!--Article with Sections-->
+    <article class="container-fluid">
+        <div class="container">
+            <a href="#">Categories</a>
+            <a href="#">See All</a>
+        </div>
+        <section class="container about-categories">
+            <div class="block-first">
+                <div class="item item-first">
+                    <span>
+                        <p>Operating systems</p>
+                    </span>
+                </div>
+                <div class="item item-second">
+                    <span>
+                        <p>Office software</p>
+                    </span>
+                </div>
+                <div class="item item-third">
+                    <span>
+                        <p>Antivirus and security</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="block-second">
+                <div class="item item-fourth">
+                    <span>
+                        <p>Work with text</p>
+                    </span>
+                </div>
+                <div class="item item-fiveth">
+                    <span>
+                        <p>Apps for smartphones</p>
+                    </span>
+                </div>
+                <div class="item item-sixth">
+                    <span>
+                        <p>Graphic and design</p>
+                    </span>
+                </div>
+            </div> 
+        </section>
+        <section class="container top-sales">
+            <div class="container">
+                <h3>Top sales</h3>
+            </div>
+            <div class="top-sales-slider">
+                <button class="btn top-sales-button" onclick="topSalesSliderPrev()"><i class="material-icons"></i></button>
+                
+                <div class="sales-items">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageFIrst.png" class="img-fluid" title="Image" alt="Image" id="upload_slider_first"/>
+                    </div>
+                    <span>
+                        <p class="slider_text_first">Adobe ColdFusion Enterprise 2018</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+
+                <div class="sales-items none-item">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageSecond.png" class="img-fluid" title="Image" alt="Image"/>
+                    </div>
+                    <span>
+                        <p>Logitech G604 910-005650</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+
+                <div class="sales-items none-item">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageThird.png" class="img-fluid" title="Image" alt="Image"/>
+                    </div>
+                    <span>
+                        <p>Microsoft Windows 10 Enterprise</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+                
+                <div class="sales-items none-item">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageFourth.png" class="img-fluid" title="Image" alt="Image"/>
+                    </div>
+                    <span>
+                        <p>ESET NOD32 Smart Security</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+
+                <button class="btn top-sales-button" onclick="topSalesSliderNext()"><i class="material-icons"></i></button>
+            </div>
+        </section>
+
+        <section class="container special-offers">
+            <div class="special-offers-items">
+                <div class="offer-first">
+                    <img src="Images/ArticleWithSections/SpecialOffers/first_offer.png" title="Offer Image" alt="Image" class="img-fluid"/>
+                </div>
+                <div class="offer-second">
+                    <img src="Images/ArticleWithSections/SpecialOffers/second_offer.png" title="Offer Image" alt="Image" class="img-fluid"/>
+                </div>
+            </div>
+            <ul class="mt-5">
+                <li class="li-red"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section class="container new-sales">
+            <div class="container">
+                <h3>New Sales</h3>
+            </div>
+            <div class="top-sales-slider">
+                <button class="btn top-sales-button" onclick="newSalesSliderPrev()"><i class="material-icons"></i></button>
+                
+                <div class="sales-items">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageSecond.png" class="img-fluid" title="Image" alt="Image" id="upload_slider_second"/>
+                    </div>
+                    <span>
+                        <p>Logitech G604 910-005650</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+
+                <div class="sales-items none-item">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageFourth.png" class="img-fluid" title="Image" alt="Image"/>
+                    </div>
+                    <span>
+                        <p>ESET NOD32 Smart Security</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+                
+                <div class="sales-items none-item">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageThird.png" class="img-fluid" title="Image" alt="Image"/>
+                    </div>
+                    <span>
+                        <p>Microsoft Windows 10 Enterprise</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+
+                <div class="sales-items none-item">
+                    <div class="sales-item">
+                        <img src="Images/ArticleWithSections/TopSales/topSalesImageFIrst.png" class="img-fluid" title="Image" alt="Image"/>
+                    </div>
+                    <span>
+                        <p class="slider_text_second">Adobe ColdFusion Enterprise 2018</p>
+                        <br/>
+                        <p>$99.99</p>
+                    </span>
+                    <button class="btn">Select license</button>
+                </div>
+
+                <button class="btn top-sales-button" onclick="newSalesSliderNext()"><i class="material-icons"></i></button>
+            </div>
+        </section>
+    </article>
+
+    <!--Footer-->
+    <footer class="container-fluid">
+        <div class="footer-child container">
+            <div class="media-bar">
+                <img src="Images/Footer/logo.png" title="Logo" alt="Logo Image" class="img-fluid"/>
+                <span class="social-bar">
+                    <img src="Images/Footer/facebook.png" title="Logo" alt="Logo Image" class="img-fluid"/>
+                    <img src="Images/Footer/linkedin.png" title="Logo" alt="Logo Image" class="img-fluid"/>
+                </span>
+            </div>
+            <div class="links">
+                <b id="openLinks">Links</b>
+                <ul class="links-none">
+                    <li>Catalog</li>
+                    <li>Actions</li>
+                    <li>Price Inquiry</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="help">
+                <b id="openHelp">Help</b>
+                <ul class="help-none">
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Sale rules</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <b id="openContacts">Contact</b>
+                <span class="contact-none">
+                    <i class="fa" style="color:#BA2B45;font-size: 24px;">&#xf2b6;</i>
+                    <a href="mailto:info.am@softline.com">info.am@softline.com</a>
+                </span>
+
+                <span class="contact-none">
+                    <i class="fa" style="color:#BA2B45;font-size: 24px;">&#xf095;</i>
+                    <a href="tel:+374 (11) 555-005">+374 (11) 555-005</a>
+                </span>
+
+                <span class="contact-none">
+                    <i class="fa fa-map-marker" style="font-size:24px;color:#BA2B45"></i>
+                    <a href="#">Yerevan, Hakob Hakobyan 3</a>
+                </span>
+            </div>
+            <div class="subscribe">
+                <b>Subscribe to our newsletter</b>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email address"/>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary" type="button">Click</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+        <script src="Scripts/Nav/Navtoggle.js"></script>
+        <script src="Scripts/Header/header.js"></script>
+        <script src="Scripts/Slider/sliderCarousel.js"></script>
+        <script src="Scripts/AboutArticle/aboutsection.js"></script>
+        <script src="Scripts/Footer/footerResponsive.js"></script>
+</body>
+</html>

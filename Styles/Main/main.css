@@ -1,0 +1,118 @@
+main {
+  position: relative;
+}
+main .slider-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #E9F0FF;
+  height: auto;
+}
+main .slider-first .slider-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+main .slider-first .slider-background .slider-text button {
+  width: 149px;
+  height: 51px;
+  background: #CB0F41;
+  border-radius: 30px;
+  color: white;
+}
+main .slider-first .slider-background .slider-text button:hover {
+  color: white;
+}
+main .slider-first .slider-background .slider-image {
+  position: relative;
+  top: 30px;
+}
+main .slider-first .slider-background .slider-image img {
+  width: 30vw;
+  height: 80vh;
+}
+main .slider-first .slider-ul ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 5px;
+}
+main .slider-first .slider-ul ul .li-red {
+  background: red;
+}
+main .slider-first .slider-ul ul li {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: white;
+}
+main .slider-second {
+  height: 206px;
+}
+main .slider-second .about-slider-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  height: 206px;
+}
+main .slider-second .about-slider-second button {
+  background: rgba(35, 31, 32, 0.3);
+  border-radius: 50%;
+  border: none;
+  color: #FFFFFF;
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+          transform: matrix(1, 0, 0, -1, 0, 0);
+  width: 50px;
+  height: 50px;
+}
+main .slider-second .about-slider-second #slider-second-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .slider-second .about-slider-second #slider-second-images img {
+  width: 10vw;
+  height: 10vh;
+}
+main .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+main .btn-group button {
+  width: 50px !important;
+  height: 50px !important;
+  display: none;
+  background: rgba(35, 31, 32, 0.3);
+  border: none;
+  color: #FFFFFF;
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+          transform: matrix(1, 0, 0, -1, 0, 0);
+}
